@@ -27,10 +27,12 @@ class MainPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
+        toolbarHeight: 150,
         backgroundColor: Colors.red,
         elevation: 0,
-        title: Text('HOSEO BUS SCHEDULE', style: TextStyle(fontFamily: 'BebasNeue', fontSize: 20)),
+        title: Text('HOSEO BUS SCHEDULE', style: TextStyle(fontFamily: 'BebasNeue', fontSize: 45)),
         centerTitle: true,
+        leading: IconButton(icon: Icon(Icons.menu),onPressed: null , iconSize: 40 ),
       ),
       body:Container(
 
